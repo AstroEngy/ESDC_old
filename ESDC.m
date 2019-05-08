@@ -16,9 +16,9 @@ for i=1:size(input,2)
 end
 
 % Simple analysis
-data.analysis.F_const = analysis_F_const(input, data, config);
-data.analysis.P_const = analysis_P_const(input, data, config);
-%data.evolver_analysis = evolver_analysis(input, data, config)
+%data.analysis.F_const = analysis_F_const(input, data, config);
+%data.analysis.P_const = analysis_P_const(input, data, config);
+data.evolver_analysis = evolver_analysis(input, data, config)
 
 % XML output
 data = makestruct(input, data);
