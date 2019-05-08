@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Reference_data>
+	<Arcjet>
+		<case>
+			<propellant>NH3</propellant>
+			<thruster>
+				<type>Arcjet</type>
+				<name>Velarc</name>
+				<thrust>0.04002</thrust>
+				<c_e>4415</c_e>
+				<massflow>9e-06</massflow>
+				<mass>0.3</mass>
+				<efficiency> 0.3178</efficiency>
+			</thruster>
+			<structure_mass> 0.94815</structure_mass>
+			<PPU_P>300</PPU_P>
+			<PPU_efficiency>0.92</PPU_efficiency>
+			<source>IRS arcjet database</source>
+
+		</case>
+
+		<case>
+			<propellant>He</propellant>
+			<thruster>
+				<type>Arcjet</type>
+				<name>Velarc</name>
+				<thrust>0.0345</thrust>
+				<c_e>5886</c_e>
+				<massflow>6e-06</massflow>
+				<mass>0.3</mass>
+				<efficiency> 0.7532</efficiency>
+			</thruster>
+			<structure_mass>0.493</structure_mass>
+			<PPU_P>150</PPU_P>
+			<PPU_efficiency>0.92</PPU_efficiency>
+
+			<source>IRS arcjet database</source>
+		</case>
+
+	</Arcjet>
+	<GridIonThruster>
+		<case>
+			<propellant>Xe</propellant>
+			<thruster>
+				<type>GridIonThruster</type>
+				<name>Arclight</name>
+				<thrust>0.015</thrust>
+				<c_e>23544</c_e>
+				<massflow>5.0968399e-07</massflow>
+				<mass>8</mass>
+				<efficiency>0.4905</efficiency>
+			</thruster>
+			<structure_mass>2</structure_mass>
+			<PPU_P>450</PPU_P>
+			<PPU_efficiency>0.92</PPU_efficiency>
+
+		</case>
+
+	</GridIonThruster>
+</Reference_data>
+
