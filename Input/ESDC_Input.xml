@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Satellite_parameters>
+	<case>
+		<totalmass>150</totalmass>
+		<totalimpulse>112670</totalimpulse>
+		<deltav>685.97</deltav>
+		<thruster>Arcjet</thruster>
+		<propellant>NH3</propellant>
+		<P_propulsion>150</P_propulsion>	
+	</case>
+	<case>
+		<totalmass>150</totalmass>
+		<totalimpulse>115250</totalimpulse>
+		<deltav>685.97</deltav>
+		<thruster>Arcjet</thruster>	
+		<propellant>He</propellant>
+		<P_propulsion>150</P_propulsion>		
+	</case>
+	<case>
+		<totalmass>150</totalmass>
+		<totalimpulse>115250</totalimpulse>
+		<deltav>685.97</deltav>
+		<thruster>GridIonThruster</thruster>	
+		<propellant>Xe</propellant>
+		<P_propulsion>150</P_propulsion>		
+	</case>
+	<case>
+		<totalmass>150</totalmass>
+		<totalimpulse>88250</totalimpulse>
+		<deltav>526.25</deltav>
+		<thruster>Arcjet</thruster>		
+		<propellant>NH3</propellant>
+		<P_propulsion>150</P_propulsion>	
+	</case>
+	<case>
+		<totalmass>150</totalmass>
+		<totalimpulse>89820</totalimpulse>
+		<deltav>526.25</deltav>
+		<thruster>Arcjet</thruster>		
+		<propellant>He</propellant>
+		<P_propulsion>150</P_propulsion>	
+	</case>
+	<case>
+		<totalmass>150</totalmass>
+		<totalimpulse>89820</totalimpulse>
+		<deltav>526.25</deltav>
+		<thruster>GridIonThruster</thruster>		
+		<propellant>Xe</propellant>
+		<P_propulsion>150</P_propulsion>	
+	</case>
+</Satellite_parameters>
+
